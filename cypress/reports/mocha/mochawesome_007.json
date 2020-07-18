@@ -1,0 +1,173 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-07-17T19:29:26.736Z",
+    "end": "2020-07-17T19:30:33.572Z",
+    "duration": 66836,
+    "testsRegistered": 4,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "de707cf0-fd18-4b45-b9af-5031131d033e",
+      "title": "",
+      "fullFile": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature",
+      "file": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f31048ad-02dc-458f-a8b6-3d9887e0145d",
+          "title": "REQ-UI-08",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "When I click on the UI Testing button, I should get navigated to the Home page (example #1)",
+              "fullTitle": "REQ-UI-08 When I click on the UI Testing button, I should get navigated to the Home page (example #1)",
+              "timedOut": null,
+              "duration": 10290,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4db82405-e591-4e6a-a5ce-5c9371c9979d",
+              "parentUUID": "f31048ad-02dc-458f-a8b6-3d9887e0145d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "When I click on the UI Testing button, I should get navigated to the Home page (example #2)",
+              "fullTitle": "REQ-UI-08 When I click on the UI Testing button, I should get navigated to the Home page (example #2)",
+              "timedOut": null,
+              "duration": 9068,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d1fbeac4-0b06-4f58-a75a-b75b30f60514",
+              "parentUUID": "f31048ad-02dc-458f-a8b6-3d9887e0145d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "When I click on the UI Testing button, I should get navigated to the Home page (example #3)",
+              "fullTitle": "REQ-UI-08 When I click on the UI Testing button, I should get navigated to the Home page (example #3)",
+              "timedOut": null,
+              "duration": 16170,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `#site`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `#site`, but never found it.\n    at Function.clickHomePage (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:116:10)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:634:24)\n    at Context.resolveAndRunStepDefinition (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:11206:9)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:10548:35)",
+                "diff": null
+              },
+              "uuid": "68e573df-fd96-47d4-b5c9-fb81bc093851",
+              "parentUUID": "f31048ad-02dc-458f-a8b6-3d9887e0145d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "When I click on the UI Testing button, I should get navigated to the Home page (example #4)",
+              "fullTitle": "REQ-UI-08 When I click on the UI Testing button, I should get navigated to the Home page (example #4)",
+              "timedOut": null,
+              "duration": 17433,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `#site`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `#site`, but never found it.\n    at Function.clickHomePage (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:116:10)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:634:24)\n    at Context.resolveAndRunStepDefinition (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:11206:9)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-08.feature:10548:35)",
+                "diff": null
+              },
+              "uuid": "5b82ca8d-af08-40b8-a611-d4e6246f64f2",
+              "parentUUID": "f31048ad-02dc-458f-a8b6-3d9887e0145d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4db82405-e591-4e6a-a5ce-5c9371c9979d",
+            "d1fbeac4-0b06-4f58-a75a-b75b30f60514"
+          ],
+          "failures": [
+            "68e573df-fd96-47d4-b5c9-fb81bc093851",
+            "5b82ca8d-af08-40b8-a611-d4e6246f64f2"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 52961,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

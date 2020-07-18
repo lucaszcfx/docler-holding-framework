@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-17T19:33:58.760Z",
+    "end": "2020-07-17T19:34:50.344Z",
+    "duration": 51584,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "40f72bc9-3cbc-403d-ab41-9f95d6ac2b9d",
+      "title": "",
+      "fullFile": "cypress\\integration\\cucumber-tests\\FormPage\\REQ-UI-12.feature",
+      "file": "cypress\\integration\\cucumber-tests\\FormPage\\REQ-UI-12.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "97ec6f5b-b37d-429f-b634-7298782d0d67",
+          "title": "REQ-UI-12",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "On the Form page, if you type John the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello John! (example #1)",
+              "fullTitle": "REQ-UI-12 On the Form page, if you type John the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello John! (example #1)",
+              "timedOut": null,
+              "duration": 9755,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "7dfc7acc-72a0-46e1-9028-69c77275a7fe",
+              "parentUUID": "97ec6f5b-b37d-429f-b634-7298782d0d67",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "On the Form page, if you type Sophia the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Sophia! (example #2)",
+              "fullTitle": "REQ-UI-12 On the Form page, if you type Sophia the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Sophia! (example #2)",
+              "timedOut": null,
+              "duration": 10415,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e36395d2-0f4e-4e50-92bb-88397e9bf0e0",
+              "parentUUID": "97ec6f5b-b37d-429f-b634-7298782d0d67",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "On the Form page, if you type Charlie the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Charlie! (example #3)",
+              "fullTitle": "REQ-UI-12 On the Form page, if you type Charlie the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Charlie! (example #3)",
+              "timedOut": null,
+              "duration": 7150,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "be5a39d7-60d4-48f0-a7b2-f7ebb6d2317a",
+              "parentUUID": "97ec6f5b-b37d-429f-b634-7298782d0d67",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "On the Form page, if you type Emily the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Emily! (example #4)",
+              "fullTitle": "REQ-UI-12 On the Form page, if you type Emily the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: Hello Emily! (example #4)",
+              "timedOut": null,
+              "duration": 16346,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8dba0f5c-b7b7-47bb-97ff-ac1e937247d2",
+              "parentUUID": "97ec6f5b-b37d-429f-b634-7298782d0d67",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7dfc7acc-72a0-46e1-9028-69c77275a7fe",
+            "e36395d2-0f4e-4e50-92bb-88397e9bf0e0",
+            "be5a39d7-60d4-48f0-a7b2-f7ebb6d2317a",
+            "8dba0f5c-b7b7-47bb-97ff-ac1e937247d2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 43666,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

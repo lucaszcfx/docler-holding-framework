@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-07-17T19:20:40.295Z",
+    "end": "2020-07-17T19:21:34.750Z",
+    "duration": 54455,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f292d771-0451-4269-9c1a-41f5701df309",
+      "title": "",
+      "fullFile": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature",
+      "file": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a05fa9c2-a0cb-4dae-9b2c-c0a470c96edc",
+          "title": "REQ-UI-01",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "The Title should be \"UI Testing Site\" on every site (example #1)",
+              "fullTitle": "REQ-UI-01 The Title should be \"UI Testing Site\" on every site (example #1)",
+              "timedOut": null,
+              "duration": 5987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "20638db7-b104-4510-b874-80db68159463",
+              "parentUUID": "a05fa9c2-a0cb-4dae-9b2c-c0a470c96edc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Title should be \"UI Testing Site\" on every site (example #2)",
+              "fullTitle": "REQ-UI-01 The Title should be \"UI Testing Site\" on every site (example #2)",
+              "timedOut": null,
+              "duration": 5641,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cf2f8120-b15c-41cb-8344-f507682d53a0",
+              "parentUUID": "a05fa9c2-a0cb-4dae-9b2c-c0a470c96edc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Title should be \"UI Testing Site\" on every site (example #3)",
+              "fullTitle": "REQ-UI-01 The Title should be \"UI Testing Site\" on every site (example #3)",
+              "timedOut": null,
+              "duration": 16319,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find content: 'UI Testing Site' within the element: <title> but never did.",
+                "estack": "AssertionError: Timed out retrying: Expected to find content: 'UI Testing Site' within the element: <title> but never did.\n    at Function.verifyTitle (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature:106:23)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature:490:24)\n    at Context.resolveAndRunStepDefinition (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature:11206:9)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-01.feature:10548:35)",
+                "diff": null
+              },
+              "uuid": "1b8b99c7-b5b8-4b17-a44a-0cb4bfc42a12",
+              "parentUUID": "a05fa9c2-a0cb-4dae-9b2c-c0a470c96edc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Title should be \"UI Testing Site\" on every site (example #4)",
+              "fullTitle": "REQ-UI-01 The Title should be \"UI Testing Site\" on every site (example #4)",
+              "timedOut": null,
+              "duration": 11011,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "25ab1a3d-2e52-4459-83da-d983e62b9309",
+              "parentUUID": "a05fa9c2-a0cb-4dae-9b2c-c0a470c96edc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "20638db7-b104-4510-b874-80db68159463",
+            "cf2f8120-b15c-41cb-8344-f507682d53a0",
+            "25ab1a3d-2e52-4459-83da-d983e62b9309"
+          ],
+          "failures": [
+            "1b8b99c7-b5b8-4b17-a44a-0cb4bfc42a12"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 38958,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

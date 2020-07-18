@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-17T19:28:10.033Z",
+    "end": "2020-07-17T19:28:48.979Z",
+    "duration": 38946,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a633a74c-0a17-4360-9975-7f6949ef67df",
+      "title": "",
+      "fullFile": "cypress\\integration\\cucumber-tests\\ErrorPage\\REQ-UI-07.feature",
+      "file": "cypress\\integration\\cucumber-tests\\ErrorPage\\REQ-UI-07.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c5371b12-7806-4470-a437-ede1f928e638",
+          "title": "REQ-UI-07",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Getting the true status code - When I click on the Error button, I should get a 404 HTTP response code",
+              "fullTitle": "REQ-UI-07 Getting the true status code - When I click on the Error button, I should get a 404 HTTP response code",
+              "timedOut": null,
+              "duration": 15150,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "00b1fc6a-35c8-48e2-848c-df64fca8b9ca",
+              "parentUUID": "c5371b12-7806-4470-a437-ede1f928e638",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "REQ-UI-07 - Getting the HTML error - When I click on the Error button, I should get a 404 HTTP response code",
+              "fullTitle": "REQ-UI-07 REQ-UI-07 - Getting the HTML error - When I click on the Error button, I should get a 404 HTTP response code",
+              "timedOut": null,
+              "duration": 6655,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "53bd0394-0a5a-4d86-8cc1-8e39d0371716",
+              "parentUUID": "c5371b12-7806-4470-a437-ede1f928e638",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "00b1fc6a-35c8-48e2-848c-df64fca8b9ca",
+            "53bd0394-0a5a-4d86-8cc1-8e39d0371716"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21805,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

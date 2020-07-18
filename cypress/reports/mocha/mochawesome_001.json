@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-07-17T19:22:22.833Z",
+    "end": "2020-07-17T19:23:41.308Z",
+    "duration": 78475,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d1f27ba4-21d1-42e8-a095-9cce060e37a5",
+      "title": "",
+      "fullFile": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature",
+      "file": "cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fd714463-8f61-44c0-8d61-ccad45616602",
+          "title": "REQ-UI-02",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "The Company Logo should be visible on every site (example #1)",
+              "fullTitle": "REQ-UI-02 The Company Logo should be visible on every site (example #1)",
+              "timedOut": null,
+              "duration": 14221,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8e690eef-14e5-47bd-abea-fdae5a80929f",
+              "parentUUID": "fd714463-8f61-44c0-8d61-ccad45616602",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Company Logo should be visible on every site (example #2)",
+              "fullTitle": "REQ-UI-02 The Company Logo should be visible on every site (example #2)",
+              "timedOut": null,
+              "duration": 6747,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4ae5a0a3-63fa-46b7-838a-2b32de6654d6",
+              "parentUUID": "fd714463-8f61-44c0-8d61-ccad45616602",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Company Logo should be visible on every site (example #3)",
+              "fullTitle": "REQ-UI-02 The Company Logo should be visible on every site (example #3)",
+              "timedOut": null,
+              "duration": 17118,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `div[class=\"jumbotron\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `div[class=\"jumbotron\"]`, but never found it.\n    at Function.verifyLogo (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature:111:10)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature:506:24)\n    at Context.resolveAndRunStepDefinition (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature:11206:9)\n    at Context.eval (http://uitest.duodecadits.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\BasePage\\REQ-UI-02.feature:10548:35)",
+                "diff": null
+              },
+              "uuid": "93921d22-4ef6-4b90-abab-916b77fcef1f",
+              "parentUUID": "fd714463-8f61-44c0-8d61-ccad45616602",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "The Company Logo should be visible on every site (example #4)",
+              "fullTitle": "REQ-UI-02 The Company Logo should be visible on every site (example #4)",
+              "timedOut": null,
+              "duration": 7846,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "04574d85-58e0-4a59-b3e7-60aa9ae73252",
+              "parentUUID": "fd714463-8f61-44c0-8d61-ccad45616602",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8e690eef-14e5-47bd-abea-fdae5a80929f",
+            "4ae5a0a3-63fa-46b7-838a-2b32de6654d6",
+            "04574d85-58e0-4a59-b3e7-60aa9ae73252"
+          ],
+          "failures": [
+            "93921d22-4ef6-4b90-abab-916b77fcef1f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 45932,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
