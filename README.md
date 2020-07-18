@@ -3,7 +3,7 @@
 
 git clone https://github.com/lucaszcfx/docler-holding-framework.git
 
-To install the framework: npm init
+To install the framework: npm install
 
 
 Dentro da pasta cypress o framework é dividido:
