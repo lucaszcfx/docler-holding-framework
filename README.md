@@ -1,10 +1,10 @@
 # docler-holding-framework
 
-**Linguagem:** JavaScript
+**Language:** JavaScript
 
 **Framework:** Cypress
 
-**Pre-Requistos:** Node
+**Pre-Requisite:** Node
 
 **git clone** https://github.com/lucaszcfx/docler-holding-framework.git
 
@@ -12,21 +12,21 @@
 **To install the framework:** npm install
 
 ## **Commands to execute the project:**
-* **"npm run test"** - Vai executar todos testes no chrome e gerar um relatorio na pasta cypress/Reports/mochareposts/report.html
-* **"npm run cy:run"** - Vai executar todos testes no chrome, sem relatorio
-* **"npm run cy:open"** - Vai abrir um dashboard aonde os testes podem ser executados ao clicar em cada feature  
+* **"npm run test"** - Will run all tests in chrome and generate a report in the folder cypress/Reports/mochareposts/report.html
+* **"npm run cy:run"** - Will run all tests in chrome, without report
+* **"npm run cy:open"** - It will open a dashboard where automated tests can be performed manually by clicking on each feature 
 
 
-## Dentro da pasta cypress o framework é dividido:
+## Within the cypress folder the framework is divided:
 
 1. **Fixtures:**
-     * Normalmente se colocam dados para testes dentro dessa pasta
+     * Usually data for testing is placed inside this folder
 
 2. **Integration:**
-     * Utilizei essa pasta para colocar as features, dividi em 4 pastas, cada uma para cada path do site.
+     * I used this folder to place the features, divided into 4 folders, one for each path of the site.
 
 3. **Page-objects:**
-Pasta desdicada ao mapeamento de objetos de cada pagina, todos os page-objects extendem a BasePage:
+Folder dedicated to mapping objects on each page, all page-objects extend BasePage:
   * Components
     * NavBar
   * pages
@@ -37,32 +37,32 @@ Pasta desdicada ao mapeamento de objetos de cada pagina, todos os page-objects e
   * Basepage
   
 4. **Plugins:**
-     * Contem index.js aonde eu configurei o cypress-cucumber-preprocessor que é utilizado de support for using feature files when testing with Cypress.
+     * It contains index.js where I configured the cypress-cucumber-preprocessor that is used as support for using feature files when testing with Cypress.
 
 5. **Reports:**
-     * Pasta direcionada para quando for gerado o relatorio da execução de testes
+     * Folder directed to when the test execution report is generated
 
 6. **Screenshots:**
-     * Nao tenho utilizado essa pasta nesse framework
+     * I have not used this folder in this framework
 
 7. **Step_definitions:**
-Passo a passo para executar os testes
+Step by step to run the tests
 
 8. **Support:**
-     * commands.js -> não utilizei
-     * index.js -> utilizei para importar o "cypress-xpath"
+     * commands.js -> I didn't use
+     * index.js -> I used to import "cypress-xpath"
 
 9. **Videos:**
-     * é uma pasta padrao do projeto, ela armazena videos.
+     * Is a standard project folder, it stores videos.
 
 
-## Na pasta raiz do projeto:
+## In the project's root folder:
 
 1. **Node_modules:**
      * A set of functions you want to include in your application.
 
 2. **Dockerfile e .dockerignore:**
-     * Pastas para execucao via docker
+     * Folders to run via docker
 
 3. **Prettierc:**
      * Is An opinionated code formatter
@@ -71,7 +71,7 @@ Passo a passo para executar os testes
      * This file i used to configure some behaviours about the framework
 
 5. **Package.json:**
-     * Pasta contem as depedencias que utilizei para framwework, parametrizacoes da pasta step_definitions e as configurações para executar o projeto.
+     * Folder contains the dependencies I used for the framework, parameterization of the step_definitions folder and the settings to run the project.
 
 6. **Package-lock.json**
      * Description. package-lock. json is automatically generated for any operations where npm modifies either the node_modules tree, or package. json .
