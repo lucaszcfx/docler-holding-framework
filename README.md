@@ -12,7 +12,7 @@
 **To install the framework:** npm install
 
 ## **Commands to execute the project:**
-* **"npm run test"** - Will run all tests in chrome and generate a report in the folder cypress/Reports/mochareposts/report.html
+* **"npm run test"**(works only in Windows) - Will run all tests in chrome and generate a report in the folder cypress/Reports/mochareposts/report.html
 * **"npm run cy:run"** - Will run all tests in chrome, without report
 * **"npm run cy:open"** - It will open a dashboard where automated tests can be performed manually by clicking on each feature 
 
