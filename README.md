@@ -1,25 +1,31 @@
 # docler-holding-framework
 
-**Linguagem JavaScript**
+**Linguagem:** JavaScript
+
+**Framework:** Cypress
+
+**Pre-Requistos:** Node
+
+**git clone** https://github.com/lucaszcfx/docler-holding-framework.git
 
 
-**Framework Cypress.**
+**To install the framework:** npm install
 
-git clone https://github.com/lucaszcfx/docler-holding-framework.git
-
-
-To install the framework: npm install
+## **Commands to execute the project:**
+* **"npm run test"** - Vai executar todos testes no chrome e gerar um relatorio na pasta cypress/Reports/mochareposts/report.html
+* **"npm run cy:run"** - Vai executar todos testes no chrome, sem relatorio
+* **"npm run cy:open"** - Vai abrir um dashboard aonde os testes podem ser executados ao clicar em cada feature  
 
 
 ## Dentro da pasta cypress o framework é dividido:
 
-1. Fixtures:
+1. **Fixtures:**
      * Normalmente se colocam dados para testes dentro dessa pasta
 
-2. Integration:
+2. **Integration:**
      * Utilizei essa pasta para colocar as features, dividi em 4 pastas, cada uma para cada path do site.
 
-3. Page-objects:
+3. **Page-objects:**
 Pasta desdicada ao mapeamento de objetos de cada pagina, todos os page-objects extendem a BasePage:
   * Components
     * NavBar
@@ -30,42 +36,42 @@ Pasta desdicada ao mapeamento de objetos de cada pagina, todos os page-objects e
     * HelloPage
   * Basepage
   
-4. Plugins:
+4. **Plugins:**
      * Contem index.js aonde eu configurei o cypress-cucumber-preprocessor que é utilizado de support for using feature files when testing with Cypress.
 
-5. Reports:
+5. **Reports:**
      * Pasta direcionada para quando for gerado o relatorio da execução de testes
 
-6. Screenshots:
+6. **Screenshots:**
      * Nao tenho utilizado essa pasta nesse framework
 
-7. Step_definitions:
+7. **Step_definitions:**
 Passo a passo para executar os testes
 
-8. Support:
+8. **Support:**
      * commands.js -> não utilizei
      * index.js -> utilizei para importar o "cypress-xpath"
 
-9. videos:
+9. **Videos:**
      * é uma pasta padrao do projeto, ela armazena videos.
 
 
 ## Na pasta raiz do projeto:
 
-1. node_modules:
+1. **Node_modules:**
      * A set of functions you want to include in your application.
 
-2. Dockerfile e .dockerignore:
+2. **Dockerfile e .dockerignore:**
      * Pastas para execucao via docker
 
-3. Prettierc:
+3. **Prettierc:**
      * Is An opinionated code formatter
 
-4. Cypress.json:
+4. **Cypress.json:**
      * This file i used to configure some behaviours about the framework
 
-5. Package.json:
+5. **Package.json:**
      * Pasta contem as depedencias que utilizei para framwework, parametrizacoes da pasta step_definitions e as configurações para executar o projeto.
 
-6. package-lock.json
+6. **Package-lock.json**
      * Description. package-lock. json is automatically generated for any operations where npm modifies either the node_modules tree, or package. json .
