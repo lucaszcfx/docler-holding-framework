@@ -1,6 +1,6 @@
 # docler-holding-framework
 
-**Language:** JavaScript
+**Language:** JavaScript, Gherkin, Cucumber
 
 **Framework:** Cypress
 
