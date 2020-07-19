@@ -16,6 +16,8 @@
 * **"npm run cy:run"** - Will run all tests in chrome, without report
 * **"npm run cy:open"** - It will open a dashboard where automated tests can be performed manually by clicking on each feature 
 
+#### **Some features will fail, because i tested the paths /hello.html and /error.**
+
 
 ## Within the cypress folder the framework is divided:
 
